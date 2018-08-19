@@ -47,6 +47,14 @@
         android:fragment="com.android.settings.applications.AppAndNotificationDashboardFragment"/>
 
     <Preference
+        android:key="top_level_derp_settings"
+        android:title="@string/derp_settings_title"
+        android:summary="@string/derp_settings_summary"
+        android:icon="@drawable/ic_homepage_derp"
+        android:order="-95"
+        android:fragment="com.derpquest.settings.DerpQuestSettings"/>
+
+    <Preference
         android:key="top_level_battery"
         android:title="@string/power_usage_summary_title"
         android:summary="@string/summary_placeholder"
